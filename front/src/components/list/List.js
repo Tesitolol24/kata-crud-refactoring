@@ -64,8 +64,8 @@ const List = (parameterStore) => {
               <td>{todo.id}</td>
               <td>{todo.name}</td>
               <td><input type="checkbox" defaultChecked={todo.completed} onChange={(event) => onChange(event, todo)}></input></td>
-              <td><button className="button2" onClick={() => onDelete(todo.id)}>Eliminar</button></td>
-              <td><button className="button2" onClick={() => onEdit(todo)}>Editar</button></td>
+              <td><button className="button buttonDelete" onClick={() => onDelete(todo.id)}>Eliminar</button></td>
+              <td><button className="button buttonEdit" onClick={() => onEdit(todo)}>Editar</button></td>
             </tr>
           })}
         </tbody>

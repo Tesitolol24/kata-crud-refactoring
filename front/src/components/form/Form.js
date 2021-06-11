@@ -76,8 +76,8 @@ const Form = (parameterStore) => {
             onChange={(event) => {
                 setState({ ...state, name: event.target.value })
             }}  ></input>
-        {item.id && <button className="button" onClick={onEdit}>Actualizar</button>}
-        {!item.id && <button className="button" onClick={onAdd}>Crear</button>}
+        {item.id && <button className="button buttonEdit" onClick={onEdit}>Actualizar</button>}
+        {!item.id && <button className="button buttonAdd" onClick={onAdd}>Crear</button>}
     </form>
 }
 
