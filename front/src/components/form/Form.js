@@ -62,7 +62,7 @@ const Form = (parameterStore) => {
                     formRef.current.reset();
                 });
         }else{
-            alert("No puedes editar una tarea vacia");
+            alert("No puedes editar una tarea vacia o debes hacer un cambio");
         }
     }
 
