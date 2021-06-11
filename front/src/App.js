@@ -1,6 +1,6 @@
 import React, { useReducer, createContext } from 'react';
-import Form from "./components/Form";
-import List from "./components/List";
+import Form from "./components/form/Form";
+import List from "./components/list/List";
 import reducer from "./reducer/reducer";
 
 const initialState = {
